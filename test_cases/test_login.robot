@@ -10,5 +10,5 @@ Open Website And Check Title
     New Browser    chromium    channel=chrome    headless=False
     New Page    ${URL}
     Get Title    ==    Google
-    
+    Take Screenshot
     Close Browser
